@@ -1,5 +1,23 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gratzi — Gratzi</title><style>body{margin:0;background:#F5F0E6;color:#1E1B3A;font:17px/1.6 -apple-system,system-ui,sans-serif}
-main{max-width:680px;margin:0 auto;padding:48px 22px 80px}h1{font:800 32px/1.2 -apple-system,system-ui,sans-serif;font-stretch:condensed;margin:0 0 6px}
-h2{font:700 20px/1.3 -apple-system,system-ui,sans-serif;margin:32px 0 8px}a{color:#4F5FF0}.muted{color:#5E5A7A;font-size:14px}
-li{margin:4px 0}.card{background:#FFFDF8;border:1.5px dashed #C99A3B;border-radius:18px;padding:18px 20px;margin:18px 0}
-@media (prefers-color-scheme:dark){body{background:#15142A;color:#F1EEFF}.card{background:#201E3A;border-color:#D8B25E}.muted{color:#B4AFD3}a{color:#7C8BFF}}</style></head><body><main><h1>Gratzi</h1><p class="muted">Gratzi: Server Tip Tracker · Last updated September 25, 2026</p><p>Close a shift in five seconds and see which shifts pay.</p><p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a> · <a href="support.html">Support</a></p></main></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gratzi tip tracker</title><style>
+:root{--bg:#F5F0E6;--panel:#FFFDF8;--ink:#1E1B3A;--soft:#5E5A7A;--line:#E7DFCF;--ultra:#4F5FF0;--violet:#8E3BDF;--tang:#D9731F}
+@media(prefers-color-scheme:dark){:root{--bg:#15142A;--panel:#201E3A;--ink:#F1EEFF;--soft:#B4AFD3;--line:#2C2A4A;--ultra:#7C8BFF;--violet:#B07CF0;--tang:#F5A25A}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,system-ui,sans-serif}
+header{background:var(--ink);color:var(--bg)}
+header div{max-width:760px;margin:0 auto;padding:18px 20px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+header b{font:900 26px/1 -apple-system,system-ui,sans-serif;font-stretch:condensed;letter-spacing:1px;text-transform:uppercase;margin-right:auto}
+header a{color:var(--bg);text-decoration:none;font-weight:700;font-size:14px;padding:5px 12px;border-radius:99px;border:1.5px solid transparent}
+header a.on{border-color:var(--tang);color:var(--tang)}
+main{max-width:760px;margin:0 auto;padding:34px 20px 70px}
+h1{font:900 42px/1.05 -apple-system,system-ui,sans-serif;font-stretch:condensed;text-transform:uppercase;margin:0 0 6px;color:var(--ultra)}
+.sub{color:var(--soft);margin:0 0 26px}
+.q{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:16px 20px;margin:14px 0;box-shadow:0 3px 0 var(--line)}
+.q h2{font:800 19px/1.3 -apple-system,system-ui,sans-serif;margin:0 0 6px;color:var(--violet)}
+.q p{margin:6px 0}.q ul{margin:6px 0;padding-left:20px}
+.pill{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;background:var(--tang);color:#fff;border-radius:99px;padding:2px 10px;margin-bottom:6px}
+a{color:var(--ultra)}
+.tiles{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin:20px 0}
+.tiles a{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:16px;text-decoration:none;color:var(--ink);box-shadow:0 3px 0 var(--line)}
+.tiles b{display:block;font-weight:900;font-size:20px;color:var(--violet)}
+small{color:var(--soft)}
+</style></head><body><header><div><b>Gratzi</b><a href="index.html" class="on">Start</a><a href="privacy.html">Data</a><a href="terms.html">Terms</a><a href="support.html">Help</a></div></header><main><h1>Tips, tallied.</h1><p class="sub">A shift log for servers, bartenders and delivery drivers who want to know what an hour is really worth.</p>
+<div class="q"><h2>What is Gratzi?</h2><p>You close a shift in a few taps: hours, cash tips, card tips and what you tipped out. Gratzi keeps the history, works out your true hourly rate and, on Pro, builds a month-end report with the fields tipped workers need for their paperwork.</p></div><div class="q"><h2>Who makes it?</h2><p>One independent developer. Mail <a href="mailto:nastya.shchaveleva@internet.ru">nastya.shchaveleva@internet.ru</a> and a person answers.</p></div><div class="tiles"><a href="privacy.html"><b>Your data</b>What stays on the phone</a><a href="terms.html"><b>The terms</b>Rules, Pro plans, limits</a><a href="support.html"><b>Help</b>Fixes and answers</a></div><p><small>Gratzi &mdash; <a href="mailto:nastya.shchaveleva@internet.ru">nastya.shchaveleva@internet.ru</a></small></p></main></body></html>
